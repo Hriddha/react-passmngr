@@ -9,7 +9,7 @@ const Navabr = () => {
         <div className='flex justify-around  items-center w-100 '> 
           <NavLink className={(e)=>{return e.isActive? "transition duration-300 overline decoration-green-300 decoration-4 ":"transition-all hover:font-semibold"}}  to="/">Home</NavLink>
           <NavLink className={(e)=>{return e.isActive? "transition duration-300 overline decoration-green-300 decoration-4 ":"transition-all hover:font-semibold"}}  to="/manager">Manager</NavLink>
-          <NavLink className={(e)=>{return e.isActive? "transition duration-300 overline decoration-green-300 decoration-4 ":"transition-all hover:font-semibold"}}  to="/about">About</NavLink>
+
 
         </div>
       </ul>
