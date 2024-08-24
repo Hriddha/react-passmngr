@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Github from '../assets/github.png' 
 import X from '../assets/x.jpg' 
 
@@ -30,4 +30,4 @@ const Footer = ()=>{
 
 }
 
-export default Footer;
+export default memo(Footer);
