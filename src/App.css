@@ -1,0 +1,10 @@
+.timeline{
+    animation-timeline: scroll();
+}
+
+
+
+.josefin-sans{
+  font-family: "Josefin Sans", sans-serif;
+
+}
